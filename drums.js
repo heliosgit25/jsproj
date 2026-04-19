@@ -15,4 +15,15 @@ function removeTransition(e) {
 
   const keys = Array.from(document.querySelectorAll('.key'));
   keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+  
   window.addEventListener('keydown', playSound);
+
+  function keysHover(e) {
+    const keysHov = Array.from(document.querySelectorAll('.key'));
+    keysHov.addEventListener('mouseover', keysHov.target.classList.add('hover'));
+    
+  }
+  
+  const keyshover = Array.from(document.querySelectorAll('.key'));
+  
+  keyshover.forEach(key => key.addEventListener('mouseover', ))

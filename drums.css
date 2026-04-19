@@ -47,3 +47,8 @@ kbd {
   text-transform: uppercase;
   color: #030208;
 }
+
+.hover {
+  transform: scale(1.1);
+  border-color:rgb(88, 1, 1)
+}

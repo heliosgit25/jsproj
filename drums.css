@@ -48,7 +48,7 @@ kbd {
   color: #030208;
 }
 
-.hover {
-  transform: scale(1.1);
+kbd:hover {
+  transform: scale(2.1);
   border-color:rgb(88, 1, 1)
 }
